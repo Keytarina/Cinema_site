@@ -225,8 +225,8 @@ scheme-svg {
   cursor: not-allowed;
 }
 
-.scheme path.active,
-.scheme path.active:hover {
+.scheme path.active:not(.light),
+.scheme path.active:hover:not(.light) {
   fill: #fe8e05;
   cursor: default;
 }
